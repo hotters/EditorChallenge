@@ -1,0 +1,6 @@
+<div class="column">
+	<app-editable *ngFor="let note of notes.data; let i = index;" [innerHtml]="note.row" [isLastElement]="isLast()"
+	 (innerHtmlChange)="onInnerHtmlChange($event, i)" (addNoteEvent)="onAddNoteEvent(i)" (deleteNoteEvent)="onDeleteNoteEvent(i)"></app-editable>
+</div>
+
+<pre class="preview">{{notes | json}}</pre>

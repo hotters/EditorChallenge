@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin: 0 0 8px 0;
+}
+
+.editable {
+	width: 300px;
+	padding: 15px 22px;
+	word-wrap: break-word;
+	background-color: white;
+	font-family: monospace;
+}
+
+.button {
+	width: 50px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.button:focus {
+	outline: none;
+}
+.button.plus, .button.minus {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.button.plus {
+	background-color: #a6c346;
+}
+
+.button.minus {
+	background-color: #c45c3f;
+}
+
+.button.minus:disabled {
+	background-color: #e3c8c0;
+	cursor: default;
+}

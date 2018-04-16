@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
 import { DesignOneComponent } from './design-one/design-one.component';
 import { DataService } from './data.service';

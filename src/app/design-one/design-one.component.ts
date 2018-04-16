@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { DataService, textModel } from '../data.service';
+import { DataService, TextModel } from '../data.service';
 import * as _ from 'lodash';
 
 @Component({
@@ -9,7 +9,7 @@ import * as _ from 'lodash';
 })
 export class DesignOneComponent implements OnInit, AfterViewInit {
 
-  notes: textModel = {data: []};
+  notes: TextModel = {data: []};
   @ViewChild('editable') editable: ElementRef;
   editableDiv: HTMLDivElement;
 

@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { textModel, DataService } from '../data.service';
+import { TextModel, DataService } from '../data.service';
 import * as _ from 'lodash';
 
 @Component({
@@ -9,8 +9,8 @@ import * as _ from 'lodash';
 })
 export class DesignTwoComponent implements OnInit {
 
-  stringNotes: textModel = {data: []};
-  notesPreview: textModel = {data: []};
+  stringNotes: TextModel = {data: []};
+  notesPreview: TextModel = {data: []};
   @ViewChild('editable') editable: ElementRef;
   editableDiv: HTMLDivElement;
 

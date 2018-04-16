@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" appDragAndDrop>
     <div #editable class="editable" contenteditable="true" (input)="onEditableInput($event)" (keydown)="onKeydown($event)">
     </div>
     <button class="button plus" (click)="addNote()">+</button>

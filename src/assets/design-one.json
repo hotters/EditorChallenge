@@ -2,7 +2,7 @@
     "data": [
         {
             "id": 1,
-            "row": "<i>Hello</i> world...<br><br>This is some content<br><br>Isn't it awesome?<br><br>I like it..."
+            "row": "<i>Hello</i> world...<br><b>This is some content</b><br><u>Isn't it awesome?</u><br>I like it..."
         }
     ]
 }

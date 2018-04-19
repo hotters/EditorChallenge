@@ -15,7 +15,7 @@ export class DataService {
 		data: [
 			{
 				id: 1,
-				row: '<i>Hello</i> world...<br><br>This is some content<br><br>Isn\'t it awesome?<br><br>I like it...'
+				row: '<i>Ctrl+I</i> <br> <b>Ctrl+B</b> <br> <u>Ctrl+U</u> <br>Some text...'
 			}
 		]
 	};
